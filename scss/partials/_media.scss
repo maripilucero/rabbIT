@@ -1,0 +1,63 @@
+@media screen and (max-width: 768px) {
+    .cristina {
+        background: rgb(130,192,204);
+        background: radial-gradient(circle, rgba(130,192,204,0.7455575980392157) 27%, rgba(237,231,227,0.3926164215686274) 100%);
+    }
+    .juan {
+        background: rgb(130,192,204);
+        background: radial-gradient(circle, rgba(130,192,204,0.7455575980392157) 27%, rgba(237,231,227,0.3926164215686274) 100%);
+    }
+    .crisjpg {
+        display: flex;
+        contain: content;
+    }
+    .quienesSomos  {
+        display: flex;
+        flex-flow:wrap;
+        gap: 2rem;
+    }
+
+    .tarjetas {
+        display: flex;
+        flex-direction: column;
+    }
+    .tarjetas > div {
+        width: 100%;
+    }
+    .subtitulos {
+        font-size: 20px;
+    }
+
+    .textoTienda {
+        text-align: center;
+    }
+
+    .contenedor {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenedor img {
+        display: none;
+    }
+
+    .contenedor form {
+        width: 100%;
+    }
+    footer ul {
+        display: block;
+        text-align: center;
+    }
+
+    footer ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    footer .copyright {
+        float: none;
+        display: block;
+    }
+
+
+}

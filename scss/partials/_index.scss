@@ -1,0 +1,26 @@
+.indexApariencia {
+    background-image: url(../images/indeximg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tituloIndex {
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgb(213, 232, 245);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10rem;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.parrafoIndex {
+    font-size: 2rem;
+    color: rgb(213, 232, 245);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5rem;
+    border-radius: 10px;
+}

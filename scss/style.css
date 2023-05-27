@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto:wght@300&display=swap");
+* {
+  margin: 10x;
+  padding: 5x;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.titulosOcultos {
+  display: none;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-family: "Bruno Ace SC";
+  color: #1B4965;
+}
+
+.indexApariencia {
+  background-image: url(../images/indeximg.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.tituloIndex {
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(213, 232, 245);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10rem;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.parrafoIndex {
+  font-size: 2rem;
+  color: rgb(213, 232, 245);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5rem;
+  border-radius: 10px;
+}
+
+@keyframes zoom-in {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+.tarjetas {
+  display: flex;
+  gap: 3rem;
+  margin-top: 4rem;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: end;
+  text-align: center;
+  margin-bottom: 20px;
+  overflow-wrap: break-word;
+}
+
+.desarrollo:hover, .soporte:hover, .seguridad:hover {
+  animation: zoom-in 0.1s ease-in-out forwards;
+}
+
+.imgServicios {
+  width: 100%;
+}
+
+.subtitulos {
+  color: #489FB5;
+  font-size: 25px;
+  font-family: "Bruno Ace SC";
+}
+
+.desarrollo, .soporte, .seguridad {
+  width: 500px;
+  height: 500px;
+  background-color: #EEEEEE;
+}
+
+@keyframes fadeRight {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes fadeLeft {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.quienesSomos {
+  display: flex;
+  gap: 25rem;
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.cristina {
+  animation-name: fadeRight;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  font-family: "Bruno Ace SC";
+}
+
+.juan {
+  animation-name: fadeLeft;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  font-family: "Bruno Ace SC";
+}
+
+.crisjpg {
+  width: 300px;
+  height: 300px-;
+}
+
+.juanjpg {
+  width: 300px;
+  height: 200px;
+}
+
+.contenedor img {
+  width: 50%;
+  height: auto;
+}
+
+.tiendaImg {
+  width: 100%;
+  border-radius: 90%;
+}
+
+.textoProductos {
+  color: black;
+}
+
+.textoTienda {
+  text-align: center;
+  color: #489FB5;
+  justify-content: center;
+}
+
+.contactoTexto {
+  font-size: 20px;
+  padding: 1rem;
+  color: #489FB5;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor form {
+  width: 100%;
+  margin-left: 3rem;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.boton {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #489FB5;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+.boton:hover {
+  background-color: #16697A;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  height: 50%;
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px 1px;
+}
+
+.navbar-fixed-bottom {
+  background-color: #EEEEEE;
+}
+
+.menuFooter {
+  list-style: none;
+  margin: none;
+}
+
+.headerRabbit {
+  background-color: #EEEEEE;
+}
+
+footer {
+  background-color: #EEEEEE;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: left;
+}
+footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+footer ul a {
+  text-decoration: none;
+  color: #666666;
+}
+footer .copyright {
+  float: right;
+  color: #16697A;
+}
+
+@media screen and (max-width: 768px) {
+  .cristina {
+    background: rgb(130, 192, 204);
+    background: radial-gradient(circle, rgba(130, 192, 204, 0.745557598) 27%, rgba(237, 231, 227, 0.3926164216) 100%);
+  }
+  .juan {
+    background: rgb(130, 192, 204);
+    background: radial-gradient(circle, rgba(130, 192, 204, 0.745557598) 27%, rgba(237, 231, 227, 0.3926164216) 100%);
+  }
+  .crisjpg {
+    display: flex;
+    contain: content;
+  }
+  .quienesSomos {
+    display: flex;
+    flex-flow: wrap;
+    gap: 2rem;
+  }
+  .tarjetas {
+    display: flex;
+    flex-direction: column;
+  }
+  .tarjetas > div {
+    width: 100%;
+  }
+  .subtitulos {
+    font-size: 20px;
+  }
+  .textoTienda {
+    text-align: center;
+  }
+  .contenedor {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedor img {
+    display: none;
+  }
+  .contenedor form {
+    width: 100%;
+  }
+  footer ul {
+    display: block;
+    text-align: center;
+  }
+  footer ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+  footer .copyright {
+    float: none;
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RabbIT - Contacto</title>
+    <meta name="keywords" content="desarrollo, soporte, hardware, software, redes, seguridad informatica">
+    <meta name="description" content="Escribinos con todas tus consultas que uno de nuestros especialistas se pondrá en contacto al instante.">
+    <link rel="shortcut icon" href="../images/rabbitFav.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../scss/style.css">
+</head>
+
+<body>
+
+    <header class="titulosOcultos"> 
+        <h1 class="titulo"> RabbIT</h1>
+    </header>
+    
+    <main>
+        <section>
+            <nav class="navbar navbar-expand-lg" style="background-color: #EEEEEE;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">RabbIT</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./quienesSomos.html">Quienes somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <section class="container">
+                <p class="contactoTexto">Sumate a nuestra comunidad! &#128640 <br>
+                Dejanos tus comentarios y nos pondremos en contacto.</p>
+        </section>
+        
+        <section class="container" >
+            <div class="contenedor">
+                <form class="formulario">
+                    <label for="nombreApellido">Nombre y Apellido</label>
+                    <input type="text" id="nombreApellido" placeholder="Ingresá tu nombre" required> 
+                    <br>
+                    <label for="correoElectronico">Correo electrónico</label> 
+                    <input type="email" id="correoElectronico" placeholder="maria@dominio.com" required>
+                    <br>
+                    <label for="telefono">Teléfono</label>
+                    <input type="number" id="telefono" placeholder="Código de area y número"  required> 
+                    <br>
+                    <label for="comentario">Comentarios</label>
+                    <textarea name="mensaje" id="mensaje" cols="20" rows="5" placeholder="Ingresá aqui tus comentarios"  required> </textarea>
+                    <br>
+                    <button class="boton" type="submit"> Enviar</button>
+                </form>
+                <img class="gifContacto" src="../images/contacto.gif" alt="enviarCorreo">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./quienesSomos.html">Quienes somos</a></li>
+            <li><a href="./servicios.html">Servicios</a></li>
+            <li><a href="./productos.html">Productos</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+        <div class="copyright">
+            &copy; Designed by Rabbit - 2023
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
